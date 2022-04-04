@@ -1,0 +1,83 @@
+.container {
+    margin: 50px auto;
+    width: 550px;
+  }
+
+body {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    color: brown; 
+    font-size: 90px; 
+    text-align: center;
+  }
+  h4 {
+    margin: 0;
+    font-size: 30px;
+    color: darkblue;
+    text-align: left;
+  }
+  .cont1{
+    background-color: lightcyan;
+    box-shadow: blue;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    justify-content: space-between;
+    margin: 20px 0;
+    border-color: darkblue;
+  }
+  .san{
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* padding: 20px; */
+    font-size: 30px;
+    text-align: center;
+  }
+  .cont1 > div {
+    flex: 1;
+    text-align: center;
+  }
+  .money.mon {
+    color: #2ecc71;
+  }
+  
+  .money.nom {
+    color: #c0392b;
+  }
+  label {
+    margin: 10px 0;
+  }
+  input[type='text'],
+input[type='number'] {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  display: block;
+  font-size: 25px;
+  padding: 5px;
+  width: 100%;
+}
+.btn {
+    background-color: #24ddaf;
+    color: black;
+    border: 1px;
+    display: block;
+    font-size: 20px;
+    margin: 10px 10px 30px 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  .btn:hover{
+  background-color: #1cb891;
+}
